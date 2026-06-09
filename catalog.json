@@ -1,1 +1,210 @@
-[]
+﻿[
+    {
+        "id":  "com.lotus.sensor.bh1750",
+        "name":  "BH1750 Light Sensor",
+        "version":  "1.0.0",
+        "description":  "Read ambient light level (lx) from BH1750 over I2C",
+        "author":  "Lotus IDE",
+        "category":  "Sensors",
+        "platforms":  [
+                          "arduino-esp32",
+                          "arduino-avr"
+                      ],
+        "icon":  "https://raw.githubusercontent.com/jaturong-kamonlers/lotus-plugins/main/icons/bh1750.svg",
+        "downloadUrl":  "https://github.com/jaturong-kamonlers/lotus-plugins/raw/main/LotusBH1750.zip"
+    },
+    {
+        "id":  "com.lotus.sensor.bmp280",
+        "name":  "BMP280 Pressure \u0026 Temperature",
+        "version":  "1.0.0",
+        "description":  "Barometric pressure + temperature + altitude via BMP280 over I2C",
+        "author":  "Lotus IDE",
+        "category":  "Sensors",
+        "platforms":  [
+                          "arduino-esp32",
+                          "arduino-avr"
+                      ],
+        "icon":  "https://raw.githubusercontent.com/jaturong-kamonlers/lotus-plugins/main/icons/bmp280.svg",
+        "downloadUrl":  "https://github.com/jaturong-kamonlers/lotus-plugins/raw/main/LotusBMP280.zip"
+    },
+    {
+        "id":  "com.lotus.sensor.dht",
+        "name":  "DHT Temperature \u0026 Humidity",
+        "version":  "1.0.0",
+        "description":  "DHT11/22/AM2302/RHT03 temperature + humidity sensor over single-wire",
+        "author":  "Lotus IDE",
+        "category":  "Sensors",
+        "platforms":  [
+                          "arduino-esp32",
+                          "arduino-avr"
+                      ],
+        "icon":  "https://raw.githubusercontent.com/jaturong-kamonlers/lotus-plugins/main/icons/dht.svg",
+        "downloadUrl":  "https://github.com/jaturong-kamonlers/lotus-plugins/raw/main/LotusDHT.zip"
+    },
+    {
+        "id":  "com.lotus.sensor.ds18b20",
+        "name":  "DS18B20 Temperature (1-Wire)",
+        "version":  "1.0.0",
+        "description":  "DS18B20 digital thermometer over the 1-Wire bus (AVR boards)",
+        "author":  "Lotus IDE",
+        "category":  "Sensors",
+        "platforms":  [
+                          "arduino-avr"
+                      ],
+        "icon":  "https://raw.githubusercontent.com/jaturong-kamonlers/lotus-plugins/main/icons/ds18b20.svg",
+        "downloadUrl":  "https://github.com/jaturong-kamonlers/lotus-plugins/raw/main/LotusDS18B20.zip"
+    },
+    {
+        "id":  "com.lotus.sensor.gy87",
+        "name":  "GY-87 10DOF IMU",
+        "version":  "1.0.0",
+        "description":  "MPU6050 + HMC5883L + BMP180 combo with Madgwick AHRS pitch/roll/yaw fusion",
+        "author":  "Lotus IDE",
+        "category":  "Sensors",
+        "platforms":  [
+                          "arduino-esp32",
+                          "arduino-avr"
+                      ],
+        "icon":  "https://raw.githubusercontent.com/jaturong-kamonlers/lotus-plugins/main/icons/gy87.svg",
+        "downloadUrl":  "https://github.com/jaturong-kamonlers/lotus-plugins/raw/main/LotusGY87.zip"
+    },
+    {
+        "id":  "com.lotus.sensor.hmc5883l",
+        "name":  "HMC5883L Digital Compass",
+        "version":  "1.0.0",
+        "description":  "3-axis magnetometer + heading angle via HMC5883L over I2C",
+        "author":  "Lotus IDE",
+        "category":  "Sensors",
+        "platforms":  [
+                          "arduino-esp32",
+                          "arduino-avr"
+                      ],
+        "icon":  "https://raw.githubusercontent.com/jaturong-kamonlers/lotus-plugins/main/icons/hmc5883l.svg",
+        "downloadUrl":  "https://github.com/jaturong-kamonlers/lotus-plugins/raw/main/LotusHMC5883L.zip"
+    },
+    {
+        "id":  "com.lotus.sensor.mlx90614",
+        "name":  "MLX90614 IR Thermometer",
+        "version":  "1.0.0",
+        "description":  "Non-contact infrared object + ambient temperature via MLX90614 over I2C",
+        "author":  "Lotus IDE",
+        "category":  "Sensors",
+        "platforms":  [
+                          "arduino-esp32",
+                          "arduino-avr"
+                      ],
+        "icon":  "https://raw.githubusercontent.com/jaturong-kamonlers/lotus-plugins/main/icons/mlx90614.svg",
+        "downloadUrl":  "https://github.com/jaturong-kamonlers/lotus-plugins/raw/main/LotusMLX90614.zip"
+    },
+    {
+        "id":  "com.lotus.sensor.mpu6050",
+        "name":  "MPU6050 6-Axis IMU",
+        "version":  "1.0.0",
+        "description":  "Accelerometer + Gyroscope + pitch/roll fusion via MPU6050 over I2C",
+        "author":  "Lotus IDE",
+        "category":  "Sensors",
+        "platforms":  [
+                          "arduino-esp32",
+                          "arduino-avr"
+                      ],
+        "icon":  "https://raw.githubusercontent.com/jaturong-kamonlers/lotus-plugins/main/icons/mpu6050.svg",
+        "downloadUrl":  "https://github.com/jaturong-kamonlers/lotus-plugins/raw/main/LotusMPU6050.zip"
+    },
+    {
+        "id":  "com.lotus.sensor.rtc-ds1307",
+        "name":  "DS1307 Real-Time Clock",
+        "version":  "1.0.3",
+        "description":  "DS1307 RTC module â€” auto-sync with compile time, get hour/min/sec, formatted time strings",
+        "author":  "Lotus IDE",
+        "category":  "Sensors",
+        "platforms":  [
+                          "arduino-avr"
+                      ],
+        "icon":  "https://raw.githubusercontent.com/jaturong-kamonlers/lotus-plugins/main/icons/rtc.svg",
+        "downloadUrl":  "https://github.com/jaturong-kamonlers/lotus-plugins/raw/main/LotusRTC.zip"
+    },
+    {
+        "id":  "com.lotus.sensor.ultrasonic",
+        "name":  "HC-SR04 Ultrasonic",
+        "version":  "1.1.0",
+        "description":  "Distance measurement via HC-SR04 ultrasonic sensor (TRIG/ECHO pins)",
+        "author":  "Lotus IDE",
+        "category":  "Sensors",
+        "platforms":  [
+                          "arduino-esp32",
+                          "arduino-avr"
+                      ],
+        "icon":  "https://raw.githubusercontent.com/jaturong-kamonlers/lotus-plugins/main/icons/ultrasonic.svg",
+        "downloadUrl":  "https://github.com/jaturong-kamonlers/lotus-plugins/raw/main/LotusUltrasonic.zip"
+    },
+    {
+        "id":  "com.lotus.actuator.pca9685",
+        "name":  "PCA9685 16ch PWM Driver",
+        "version":  "1.0.0",
+        "description":  "16-channel I2C PWM/servo driver â€” angle, microseconds, raw PWM, calibrate per channel",
+        "author":  "Lotus IDE",
+        "category":  "Actuators",
+        "platforms":  [
+                          "arduino-esp32",
+                          "arduino-avr"
+                      ],
+        "icon":  "https://raw.githubusercontent.com/jaturong-kamonlers/lotus-plugins/main/icons/pca9685.svg",
+        "downloadUrl":  "https://github.com/jaturong-kamonlers/lotus-plugins/raw/main/LotusPCA9685.zip"
+    },
+    {
+        "id":  "com.lotus.actuator.servo",
+        "name":  "Servo Motor",
+        "version":  "1.0.0",
+        "description":  "Drive standard hobby servo motors (uses Servo.h on AVR, ESP32Servo.h on ESP32)",
+        "author":  "Lotus IDE",
+        "category":  "Actuators",
+        "platforms":  [
+                          "arduino-esp32",
+                          "arduino-avr"
+                      ],
+        "icon":  "https://raw.githubusercontent.com/jaturong-kamonlers/lotus-plugins/main/icons/servo.svg",
+        "downloadUrl":  "https://github.com/jaturong-kamonlers/lotus-plugins/raw/main/LotusServo.zip"
+    },
+    {
+        "id":  "com.lotus.vision.huskylens",
+        "name":  "HuskyLens AI Camera",
+        "version":  "1.0.0",
+        "description":  "HuskyLens vision module â€” face/object/line/color/tag recognition over I2C or UART",
+        "author":  "Lotus IDE",
+        "category":  "Vision",
+        "platforms":  [
+                          "arduino-esp32",
+                          "arduino-avr"
+                      ],
+        "icon":  "https://raw.githubusercontent.com/jaturong-kamonlers/lotus-plugins/main/icons/huskylens.svg",
+        "downloadUrl":  "https://github.com/jaturong-kamonlers/lotus-plugins/raw/main/LotusHuskyLens.zip"
+    },
+    {
+        "id":  "com.lotus.motion.armik",
+        "name":  "Robot Arm IK (2/3/4-DOF)",
+        "version":  "1.0.0",
+        "description":  "Inverse kinematics for 2/3/4-DOF robot arms using PCA9685 or Arduino Servo backends",
+        "author":  "Lotus IDE",
+        "category":  "Motion",
+        "platforms":  [
+                          "arduino-esp32",
+                          "arduino-avr"
+                      ],
+        "icon":  "https://raw.githubusercontent.com/jaturong-kamonlers/lotus-plugins/main/icons/armik.svg",
+        "downloadUrl":  "https://github.com/jaturong-kamonlers/lotus-plugins/raw/main/LotusArmIK.zip"
+    },
+    {
+        "id":  "com.lotus.motion.linepid",
+        "name":  "Line Follower PID",
+        "version":  "2.0.0",
+        "description":  "PID line tracking â€” Digital, Analog, QTR-8A/RC, CD74HC4067 sensor arrays",
+        "author":  "Lotus IDE",
+        "category":  "Motion",
+        "platforms":  [
+                          "arduino-esp32",
+                          "arduino-avr"
+                      ],
+        "icon":  "https://raw.githubusercontent.com/jaturong-kamonlers/lotus-plugins/main/icons/linepid.svg",
+        "downloadUrl":  "https://github.com/jaturong-kamonlers/lotus-plugins/raw/main/LotusLinePID.zip"
+    }
+]
